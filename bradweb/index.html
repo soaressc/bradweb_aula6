@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1> Introdução ao Javascript</h1>
+
+    <!-- criou um botão que executa "criaLinha" em cada evento de "click" -->
+    <button onclick="criaLinha()">
+    Adicionar h2
+    </button>
+
+</body>
+<script src="script.js">
+
+
+/*
+    estabelece a função criaLinha com o conteúdo
+    "h2 adicionado" sempre que o evento "click" acontece no botão criado
+
+function criaLinha(){
+    const h2 = window.
+        document.
+        createElement("h2");
+        h2.textContent = "h2 Adicionado";
+    const btn = window.document
+        .querySelector("button");
+    btn.after(h2);
+}
+*/
+/*
+function imprimeNome(nome){
+    console.log(
+        `Nome recebido: ${nome}`);
+}
+
+function imprimeCad0bj(
+    cadastro
+){
+    console.log(`
+    Nome: ${cadastro.nome}\n
+    Idade: ${cadastro.idade}\n
+    Matriculado: ${cadastro.matriculado}\n
+    `);
+}
+
+let cad = {
+    nome: "IF",
+    idade: 15,
+    matriculado: true
+};
+imprimeCad0bj(cad);
+*/
+/*
+function imprimeCadastro(
+    nome, idade, matriculado
+){
+    console.log(`
+         Nome: ${nome}\n
+         Idade: ${idade}\n
+         Matriculado? ${matriculado}\n
+         `);
+}
+
+imprimeCadastro("IF", 15, true);*/
+/*imprimeNome("Nome 1");
+imprimeNome("Outro nome");
+*/
+/*
+ //const é constante, variável não se altera
+const dataAgora = new Date();
+console.log(dataAgora);
+
+dataAgora.setDate(20);
+console.log(dataAgora);
+
+let dataDefinida = new Date(1993, 04, 14, 14, 25, 00);
+console.log(dataDefinida);
+*/
+/*   let numero = 10;
+    let string = "Minha String";
+    let meunull = null;
+    let nada;
+
+    console.log(typeof numero);
+    console.log(typeof string);
+    console.log(typeof meunull);
+    console.log(typeof nada);
+    //  alert("Bem-vindo!");
+
+    //Exibindo a string dentro da variável nome
+let nome = new String("IFSP");
+console.log(
+    `Instituição: ${nome}`);
+
+    //Exibindo a quantidade de caractéres dentro de nome
+let tamanho = nome.length;
+console.log(
+    `Tamanho: ${tamanho}`
+);
+
+    //Exibindo o 3º termo da string em nome
+let letra3 = nome[2];
+console.log(`Terceira Letra: ${letra3}`
+);
+
+    //Responde se string contém trecho 
+let contemSigla =
+nome.includes("IF");
+console.log(`Contém IF?:
+    ${contemSigla}`);
+
+
+    // nome = "FATEC";
+// console.log(
+//     `Nova Instituição: ${nome}`);
+// let tamanho = nome.length;
+// console.log(
+//     `Tamanho: ${tamanho}`
+// )
+*/
+
+</script>
+</html>
